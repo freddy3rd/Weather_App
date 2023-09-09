@@ -69,9 +69,8 @@ function WeatherCalendar() {
           animate="revealedVariant"
           transition={{
             ease: "easeIn",
-            type: "tween",
             staggerChildren: 0.2,
-            duration: 0.5,
+            duration: 0.8,
             delayChildren: 0.2 + 1,
           }}
           className="flex justify-evenly gap-3 w-full overflow-x-hidden md:h-52 h-[max-content] col-span-2 "

@@ -3,8 +3,8 @@ import { Variants } from "framer-motion";
 export const reveal: Variants = {
   hiddenVariant: { opacity: 0 },
   revealedVariant: {
-    // backgroundColor: "rgb(187, 215, 237)",
-    opacity: 1,
+    opacity: [0, 1],
+    x: [-50, 0],
     transition: {
       type: "spring",
     },
