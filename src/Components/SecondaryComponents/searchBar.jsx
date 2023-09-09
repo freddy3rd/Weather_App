@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import "../stylesheets/SearchBar.css";
 import WeatherContext from "../Context/WeatherContext";
 
 export default function SearchBar() {
